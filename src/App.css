@@ -1,0 +1,66 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body {
+    overflow-x: hidden;
+}
+
+.title-logo {
+    font-family: Nexa;
+}
+
+.graphie {
+    font-family: Graphie;
+}
+
+.Poppins {
+    font-family: Poppins;
+}
+
+.text-large {
+    font-size: 128px;
+}
+
+.ghost-image {
+    position: absolute;
+    top: -500px;
+    right: -300px;
+}
+
+.below-all {
+    z-index: -10;
+}
+
+#creative_ {
+    opacity: 0.04;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    transform: translate(11px, 0px) matrix(1, 0, 0, 1, -183, 356) rotate(-90deg);
+    transform-origin: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 828px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Graphie;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 246px;
+    color: rgba(80, 46, 255, 1);
+    letter-spacing: -0.2px;
+    z-index: -10;
+}
+
+.formline_bg {
+    background-image: url('./formline_bg.svg');
+    background-repeat: no-repeat;
+}
+
+.footer_bg {
+    background-image: url('./footer_bg.svg');
+    background-repeat: no-repeat;
+}
